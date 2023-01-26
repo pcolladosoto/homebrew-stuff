@@ -1,4 +1,4 @@
-cask "balenaetcher" do
+cask "etcher" do
   version "1.14.3"
   sha256 :no_check
 
