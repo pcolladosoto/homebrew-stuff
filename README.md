@@ -1,6 +1,6 @@
 # My Homebrew Tap
 [Homebrew](https://brew.sh) formulae and/or casks are sometime updated in such a way that things
-break. Other times, [`homebrew-core`](https://github.com/Homebrew/homebrew-core) suddenly drops
+break. On other occasions, [`homebrew-core`](https://github.com/Homebrew/homebrew-core) suddenly drops
 some formulae when the associated tool updates too often for instance.
 
 In some occasions the developers offer their own [tap](https://docs.brew.sh/Taps), but in others
@@ -29,6 +29,11 @@ We can also **install** the tap (i.e. add it to our local `brew` client) and the
 
     # And then install stuff as we would usually do:
     $ brew install <formula>
+
+## Removing the tap
+Luckily, removing the tap is just as easy as installing it. The following will do the trick:
+
+    $ brew untap pcolladosoto/stuff
 
 ## My local setup
 We actually cloned the repo into the following directory so that we can install formulae and casks **before** pushing
