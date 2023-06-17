@@ -11,7 +11,6 @@ class Geant4 < Formula
   desc "Simulation toolkit for particle transport through matter"
   homepage "https://geant4.web.cern.ch"
   url "https://gitlab.cern.ch/geant4/geant4/-/archive/v11.1.1/geant4-v11.1.1.tar.gz"
-  version "11.1.1"
   sha256 "c5878634da9ba6765ce35a469b2893044f4a6598aa948733da8436cdbfeef7d2"
   license :public_domain
 
