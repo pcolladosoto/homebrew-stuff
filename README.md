@@ -17,7 +17,7 @@ for setting up your own tap. Be it what it may, we hope you enjoy taking a look 
 - `botan2`: Latest `2.x` version of the [`botan`](https://botan.randombit.net) library implementing cryptography and TLS
   primitives for C++.
 
-## How do I install these formulae?
+## How do I install these formulae and casks?
 We just need to make the use of this tap explicit when passing the formula name as an argument to `brew`:
 
     $ brew install pcolladosoto/stuff/<formula>
@@ -45,6 +45,13 @@ We then added a symbolic link so that we could access the tap in an easier fashi
 
     $ ln -s /usr/local/Homebrew/Library/Taps/pcolladosoto/homebrew-stuff ~/somewhere/nice
 
-## Documentation
+## Documentation and further reading
 You can read up more on `brew` by taking a look at `brew(1)` (with `man brew`) or by taking a look at the
-[online docs](https://docs.brew.sh).
+[online docs](https://docs.brew.sh). You can also refer to the [Formula Cookbook](https://docs.brew.sh/Formula-Cookbook)
+and the [Cask Cookbook](https://docs.brew.sh/Cask-Cookbook) for further information on how to craft formulae and
+casks, respectively.
+
+You might also want to consider the [Homebrew Ruby API documentation](https://rubydoc.brew.sh). And specifically the
+[Formula class definition](https://rubydoc.brew.sh/Formula). It's much harder to read than the cookbook, but it offers
+the best possible insight into what makes Homebrew tick...
+more technical than the Cookbooks
